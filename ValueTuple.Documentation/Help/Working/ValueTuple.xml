@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ValueTuple</name>
+    </assembly>
+    <members>
+        <member name="T:ValueTuple.MyClass">
+            <summary>
+            A class used to test out some features
+            of the Sandcastle Help File Generator
+            </summary>
+        </member>
+        <member name="M:ValueTuple.MyClass.NonTupleMethod(System.Int32)">
+            <summary>
+            This is a fake method that doesn't have tuples anywhere
+            </summary>
+            <param name="n">An integer</param>
+            <returns>A string</returns>
+        </member>
+        <member name="M:ValueTuple.MyClass.InternalTupleMethod(System.Int32)">
+            <summary>
+            A method that uses tuples internally but
+            doesn't have them on the public API
+            </summary>
+            <param name="n">An integer</param>
+            <returns>A string</returns>
+        </member>
+        <member name="M:ValueTuple.MyClass.PublicTupleMethod(System.Int32)">
+            <summary>
+            A method that uses tuples on it's public API
+            </summary>
+            <param name="n">An integer</param>
+            <returns>A tuple</returns>
+        </member>
+    </members>
+</doc>
